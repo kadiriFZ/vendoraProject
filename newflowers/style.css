@@ -1,3 +1,4 @@
+
 :root {
   --primary: #ff6b6b;
   --secondary: #4ecdc4;
@@ -22,18 +23,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    
   }
   
   .header .logo {
     font-size: 24px;
     font-weight: bold;
     color: #e74c3c;
+    
   }
 
   .navbar {
     display: flex;
-    gap: 20px; /* Espacement entre les liens */
+    gap: 40px; /* Espacement entre les liens */
+    margin-right: 100px;
   }
   
   .navbar a {
@@ -41,16 +44,19 @@ body {
     color: #333;
     font-size: 18px; /* Taille des liens ajustée */
     font-weight: 500;
+    
   }
   
   .navbar a:hover {
     color: #e74c3c;
   }
+  
   .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 2rem;
+    margin-top: 80px;
   }
   .product-card {
     background: white;
@@ -155,9 +161,12 @@ body {
     justify-content: center; /* Centrer horizontalement */
     align-items: center;    /* Centrer verticalement */
     padding: 20px;
+    margin-top: 100px;
 }
   .hero-text {
     max-width: 50%;
+    margin-right: 90px;
+    text-align: center;
   }
   
   .hero-text h1 {
@@ -192,19 +201,22 @@ body {
   .logo {
     display: flex;
     align-items: center;
+    
+   
+    
   }
   
-  .logo img {
+  .logo img { 
     height: 180px; /* Adjust logo size */
     max-height: 500px; /* Limite pour éviter qu'il soit trop grand */
-
+    
   }
   
 /* CSS for formulaire*/
 form{
     display: flex;
     flex-direction: column;
-    background-color:rgb(224, 224, 224;
+    background-color:rgb(224, 224, 224);
     padding: 50px;
     border-radius:10px;
     box-shadow: 0 0 10px;
@@ -234,8 +246,10 @@ button {
     border-radius: 7px;
     cursor: pointer;
     
-    
   }  
+  
+
+
   input, output {
     padding : 9px;
     font-size: 16px ;
@@ -255,9 +269,10 @@ button {
   }
   .content{
   max-width: 400px;
-  margin: 100px ;
+  margin-top: 50px;
   padding: 100px;
   flex-direction: column;
+  margin-left: 500px;
 }
 .calculTotal{
   font-size: 18px;
@@ -274,6 +289,10 @@ button {
   color: #8f7f7f;
   font-weight: bold;
   margin-top: 40px;
+  transition: background-color 0.3s ease; 
+}
+#validerCommande:hover {
+  background-color: #87939d;
 }
 
 
@@ -293,7 +312,7 @@ button {
  
 }
 .info h3 {
-  color: #a160b3;
+  color: #000000;
   font-size: 20px;
   margin-bottom: 30px;
   margin-top: 40px;
@@ -371,13 +390,13 @@ footer {
 
 
 @media (max-width: 768px) {
-  .footer-container {
+   .footer-container {
     flex-direction: column; /* Passe en mode vertical */
     align-items: center;
     height: auto; /* Ajuste la hauteur automatiquement */
   }
 
-  .info, .location {
+  .info, .location  {
     width: 100%; /* Chaque section prend 100% de la largeur */
     margin-bottom: 20px; /* Ajoute un espacement entre les sections */
   }
@@ -429,6 +448,6 @@ footer {
 }
 
 .contact-btn:hover {
-  background-color: #7d4290;
+  background-color: #150e18;
   color: white;
 }

@@ -451,3 +451,12 @@ footer {
   background-color: #150e18;
   color: white;
 }
+
+
+#commande {
+  transition: background-color 0.3s ease;
+}
+
+#commande:focus-within {
+  background-color: #f9f9f9;
+}

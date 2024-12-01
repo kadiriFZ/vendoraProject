@@ -204,7 +204,7 @@ body {
 form{
     display: flex;
     flex-direction: column;
-    background-color:rgb(215, 189, 240);
+    background-color:rgb(224, 224, 224;
     padding: 50px;
     border-radius:10px;
     box-shadow: 0 0 10px;
@@ -228,7 +228,7 @@ button {
     margin-top: 30px;
     padding: 10px;
     font-size: 18px;
-    background-color: #0e100f;
+    
     color: white;
     border: none;
     border-radius: 7px;
@@ -267,6 +267,7 @@ button {
 #total{
   font-size: 30px;
   padding-left: 30px;
+  border:0px ;
 }
 #validerCommande{
   background-color: #fcebd4;
@@ -325,8 +326,8 @@ border-radius: 4px;
 button {
   width: 90%;
   padding: 10px;
-  background-color: #e8bef5;
-  color: white;
+  background-color:  #fcebd4;
+  color:  rgb(17, 17, 17);
   border: none;
   border-radius: 5px;
   font-size: 18px;
@@ -335,7 +336,7 @@ button {
   transition: background-color 0.3s ease;
 }
 button:hover {
-  background-color: #080a0c;
+  background-color: #8e949a;
 }
 
 .footer-main {
@@ -354,7 +355,7 @@ footer {
   width: 100%;
   padding: 15px 0;
   text-align: center;
-  background-color: #a160b3;
+  background-color: #5f5f6b;
   color: #fff;
   font-size: 16px;
   
@@ -391,7 +392,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eac8f5; /* Couleur de fond */
+  background-color: rgb(224, 224, 224); /* Couleur de fond */
   color: white;
   padding: 15px 30px;
   height: 80px;
@@ -418,7 +419,7 @@ footer {
 /* Bouton Contact Us */
 .contact-btn {
   background-color: #fdf5ff;
-  color: #7d4290;
+  color: #000000;
   padding: 10px 20px;
   border: none;
   border-radius: 20px;

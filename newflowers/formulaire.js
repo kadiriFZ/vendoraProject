@@ -1,3 +1,14 @@
+// Écouteur pour les boutons "Add to Cart"
+document.querySelectorAll('.btn').forEach(button => {
+  button.addEventListener('click', () => {
+    // Rediriger vers le formulaire avec un scroll
+    document.getElementById("commande").scrollIntoView({
+      behavior: "smooth", // Défilement fluide
+      block: "start" // Place le formulaire en haut de l'écran
+    });
+  });
+});
+
 //java script for formulaire
 
 // Fonction pour vérifier si tous les champs sont remplis
